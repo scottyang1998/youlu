@@ -1,0 +1,27 @@
+.index-sort{
+  width: 208px;
+  border: 1px solid #dcdcdc;
+  border-top: 0;
+  background-color: #FFFFFF;
+}
+
+.index-sort li{
+  border-bottom: 1px dotted #dcdcdc;
+  padding: 0 10px 12px 26px;
+}
+.index-sort li h2{
+  font-size: 14px;
+  line-height: 28px;
+  padding-left: 8px;
+}
+.index-sort a{
+  line-height: 20px;
+  margin: 0 3px;
+}
+
+.index-sort .yl-all-index{
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px;
+}
+

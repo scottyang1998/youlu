@@ -1,0 +1,24 @@
+.black-board{
+  width: 220px;
+  background-color: #f9f9f9;
+}
+.book-con{
+  padding: 10px;
+  border:1px solid #eaeaea
+}
+.black-board h2{
+  font-size: 16px;
+}
+
+.black-board ul{
+  padding-top: 14px;
+  padding-left: 20px;
+}
+
+.black-board li{
+  line-height: 22px;
+  background: url('img/point.gif') no-repeat left center;
+  padding-left: 6px;
+}
+
+

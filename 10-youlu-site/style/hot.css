@@ -1,0 +1,66 @@
+.hot{
+  width: 220px;
+}
+.hot h2{
+  font-size: 16px;
+  line-height: 40px;
+  padding-left: 30px;
+}
+
+.hot ul{
+  border: 1px solid gray;
+  font-size: 14px;
+}
+.hot .book2{
+  display: none;
+}
+
+.hot .book1{
+  line-height: 44px;
+  border-bottom: 1px solid gray;
+  padding-left: 14px;
+}
+
+.hot span{
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.hot .red{
+  color:red;
+}
+
+
+.hot .book2{
+  padding-top: 6px;
+  height: 90px;
+  border-bottom: 1px solid gray;
+}
+
+.hot img{
+  width: 76px;
+}
+
+.hot .book2 p{
+  line-height: 24px;
+  font-size: 14px;
+}
+.hot .discount-price{
+  color:red;
+}
+
+.hot .old-price{
+  text-decoration: line-through;
+}
+
+.hot .book2{
+  display: none;
+}
+
+.hot li:hover .book1{
+  display: none;
+}
+
+.hot li:hover .book2{
+  display: flex;
+}

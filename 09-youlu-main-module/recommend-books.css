@@ -1,0 +1,62 @@
+.book-recommend{
+  width: 750px;
+  margin: 40px auto;
+}
+.book-recommend .header{
+  display: flex;
+  border-bottom: 1px solid gray;
+  background-image: url('img/laba.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 6px;
+  padding-left: 16px;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+
+.book-recommend .header h2{
+  margin-right: auto;
+  font-size: 16px;
+}
+
+.book-recommend .header span{
+  color: red;
+}
+
+.book-recommend .content{
+  margin-top: 10px;
+}
+
+.book-recommend .content ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-recommend .content li{
+  width: 187px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.book-recommend .content li .author{
+  position: relative;
+  left:-36px;
+}
+
+.book-recommend .content li img{
+  width: auto;
+  height: 160px;
+}
+
+.book-recommend .content .price{
+  margin-bottom: 20px;
+}
+
+.book-recommend .content .discount{
+  color:red;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.book-recommend .content .origin-price{
+  text-decoration: line-through;
+}

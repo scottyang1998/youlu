@@ -1,0 +1,212 @@
+@vv:3.75vw;
+
+/*默认样式重置(css reset)*/
+*{
+  margin: 0;
+  font-size: 12/@vv; /* 中文字体大小的最小值 */
+  /* font-family: xx; 也可以设置字体 */
+}
+ol,ul {
+  list-style: none; /* 去除列表样式 */
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #464646;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f60;
+  text-decoration: underline;
+}
+
+.com-header-area{
+  background-color: #f0f0f0;
+  padding: 6/@vv 10/@vv;
+  .search-box{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    input{
+      border: 0;
+      padding: 6/@vv 0;
+      width: 100%;
+    }
+    span{
+      font-size: 12/@vv;
+    }
+  }
+}
+
+.com-content{
+  background-color:#e1e5ee;
+  .hot-search{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 2/@vv;
+    li{
+      margin: 0 4/@vv;
+      &.hot{
+        color: orange;
+      }
+      a{
+        color: #ccc;
+      }
+    }
+  }
+
+  .slide{
+    img{
+      width: 375/@vv;
+      height: 187.5/@vv;
+    }
+  }
+
+  .guarantee-g{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    .guarantee-span{
+      margin: 6/@vv;
+      .check{
+        color: red;
+      }
+    }
+  }
+
+  .tab{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 6/@vv;
+      img{
+        width: 26/@vv;
+        height: 26/@vv;
+      }
+
+    }
+  }
+  .bookList{
+    .ad{
+      a{
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .book-items{
+      background-color: #fff;
+      color: #757070;
+      .item{
+        display: flex;
+        line-height: 40/@vv;
+        font-weight: bold;
+        .book-recommend{
+          font-size: 14/@vv;
+          margin-left: 14/@vv;
+        }
+        .left-arrow{
+          margin-left: 20/@vv;
+        }
+        .span-more{
+          margin-left: auto;
+          margin-right: 20/@vv;
+        }
+      }
+      .list-recommend{
+        ul{
+          display: flex;
+          li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex:1;
+            img{
+              max-width: 80/@vv;
+              margin-bottom: 10/@vv;
+            }
+            .priceVip{
+              color:red;
+            }
+          }
+        }
+      }
+      .book-refresh{
+        line-height: 40/@vv;
+        display: flex;
+        justify-content: center;
+      }
+
+      .bookInfo{
+        font-size: 14/@vv;
+        .bi_li{
+          display: flex;
+          padding: 10/@vv;
+          align-items: center;
+          .bi-l{
+            img{
+              max-height: 90/@vv;
+              width: 80/@vv;
+            }
+          }
+          .bi-r{
+            margin-left: 12/@vv;
+            .priceVip{
+              color: red;
+            }
+            .price{
+              display: flex;
+              line-height: 14/@vv;
+              span{
+                flex:1 1 auto;
+                margin-right: 6/@vv;
+                margin-bottom: 1/@vv;
+              }
+              span:last-child{
+                color:red;
+                border: 1/@vv solid red;
+                padding: 0 6/@vv;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+                border-radius: 4/@vv;
+              }
+            }
+          }
+        }
+      }
+      
+    }
+  }
+}
+
+.footer_nav{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #fcfcfc;
+  z-index: 99;
+  .footer-tab{
+    display: flex;
+    a{
+      height: 50/@vv;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex:1;
+      .icon-sousuo{
+        font-size: 24/@vv;
+      }
+    }
+  }
+}
+

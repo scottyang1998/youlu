@@ -1,0 +1,66 @@
+.nav{
+  height: 30px;
+  background-color: #f4f4f4;
+}
+
+.search-bar{
+  height: 134px;
+  /* background-color: green; */
+}
+
+.cate-nav{
+  height: 38px;
+  
+  background-color: #d80000;
+}
+
+.main{
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  /* background-color: pink; */
+  display: flex;
+}
+
+.index-sort{
+  width: 210px;
+  height: 970px;
+  /* background-color: blue; */
+}
+.right{
+  width: 990px;
+  height: 970px;
+  background-color: white;
+}
+
+.help{
+  height: 30px;
+  /* background-color: pink; */
+}
+
+.bottom-info{
+  display: flex;
+}
+
+.left{
+  width:750px;
+  height: 900px;
+  /* background-color: orange; */
+  margin-left: 10px;
+}
+
+.lunbotu{
+  height: 340px;
+  /* background-color: red; */
+}
+.book-recommend{
+  height: 600px;
+  /* background-color: green; */
+}
+
+.main-right{
+  width: 220px;
+  height: 900px;
+  /* background-color: blue; */
+  margin-left: auto;
+}

@@ -1,0 +1,189 @@
+/*默认样式重置(css reset)*/
+* {
+  margin: 0;
+  font-size: 3.2vw;
+  /* 中文字体大小的最小值 */
+  /* font-family: xx; 也可以设置字体 */
+}
+ol,
+ul {
+  list-style: none;
+  /* 去除列表样式 */
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #464646;
+  text-decoration: none;
+}
+a:hover {
+  color: #f60;
+  text-decoration: underline;
+}
+.com-header-area {
+  background-color: #f0f0f0;
+  padding: 1.6vw 2.66666667vw;
+}
+.com-header-area .search-box {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.com-header-area .search-box input {
+  border: 0;
+  padding: 1.6vw 0;
+  width: 100%;
+}
+.com-header-area .search-box span {
+  font-size: 3.2vw;
+}
+.com-content {
+  background-color: #e1e5ee;
+}
+.com-content .hot-search {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.53333333vw;
+}
+.com-content .hot-search li {
+  margin: 0 1.06666667vw;
+}
+.com-content .hot-search li.hot {
+  color: orange;
+}
+.com-content .hot-search li a {
+  color: #ccc;
+}
+.com-content .slide img {
+  width: 100vw;
+  height: 50vw;
+}
+.com-content .guarantee-g {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+.com-content .guarantee-g .guarantee-span {
+  margin: 1.6vw;
+}
+.com-content .guarantee-g .guarantee-span .check {
+  color: red;
+}
+.com-content .tab {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.com-content .tab a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6vw;
+}
+.com-content .tab a img {
+  width: 6.93333333vw;
+  height: 6.93333333vw;
+}
+.com-content .bookList .ad a img {
+  width: 100%;
+}
+.com-content .bookList .book-items {
+  background-color: #fff;
+  color: #757070;
+}
+.com-content .bookList .book-items .item {
+  display: flex;
+  line-height: 10.66666667vw;
+  font-weight: bold;
+}
+.com-content .bookList .book-items .item .book-recommend {
+  font-size: 3.73333333vw;
+  margin-left: 3.73333333vw;
+}
+.com-content .bookList .book-items .item .left-arrow {
+  margin-left: 5.33333333vw;
+}
+.com-content .bookList .book-items .item .span-more {
+  margin-left: auto;
+  margin-right: 5.33333333vw;
+}
+.com-content .bookList .book-items .list-recommend ul {
+  display: flex;
+}
+.com-content .bookList .book-items .list-recommend ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.com-content .bookList .book-items .list-recommend ul li img {
+  max-width: 21.33333333vw;
+  margin-bottom: 2.66666667vw;
+}
+.com-content .bookList .book-items .list-recommend ul li .priceVip {
+  color: red;
+}
+.com-content .bookList .book-items .book-refresh {
+  line-height: 10.66666667vw;
+  display: flex;
+  justify-content: center;
+}
+.com-content .bookList .book-items .bookInfo {
+  font-size: 3.73333333vw;
+}
+.com-content .bookList .book-items .bookInfo .bi_li {
+  display: flex;
+  padding: 2.66666667vw;
+  align-items: center;
+}
+.com-content .bookList .book-items .bookInfo .bi_li .bi-l img {
+  max-height: 24vw;
+  width: 21.33333333vw;
+}
+.com-content .bookList .book-items .bookInfo .bi_li .bi-r {
+  margin-left: 3.2vw;
+}
+.com-content .bookList .book-items .bookInfo .bi_li .bi-r .priceVip {
+  color: red;
+}
+.com-content .bookList .book-items .bookInfo .bi_li .bi-r .price {
+  display: flex;
+  line-height: 3.73333333vw;
+}
+.com-content .bookList .book-items .bookInfo .bi_li .bi-r .price span {
+  flex: 1 1 auto;
+  margin-right: 1.6vw;
+  margin-bottom: 0.26666667vw;
+}
+.com-content .bookList .book-items .bookInfo .bi_li .bi-r .price span:last-child {
+  color: red;
+  border: 0.26666667vw solid red;
+  padding: 0 1.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 1.06666667vw;
+}
+.footer_nav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #fcfcfc;
+  z-index: 99;
+}
+.footer_nav .footer-tab {
+  display: flex;
+}
+.footer_nav .footer-tab a {
+  height: 13.33333333vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.footer_nav .footer-tab a .icon-sousuo {
+  font-size: 6.4vw;
+}

@@ -1,0 +1,27 @@
+.lunbotu{
+  width: 750px;
+  position: relative;
+}
+.lunbotu img{
+  width: 750px;
+}
+.lunbotu ul{
+  position: absolute;
+  right: 12px;
+  bottom: 20px;
+}
+.lunbotu li{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.lunbotu li:hover{
+  background-color: tomato;
+}
